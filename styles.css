@@ -1,4 +1,4 @@
-h2,h3,h4,p,ul,a,ul li{
+p,ul,a,ul li{
   font-family: 'Open Sans', sans-serif;
   color: white;
 }
@@ -8,7 +8,9 @@ h2,h3,h4,p,ul,a,ul li{
    padding: 20px;
    font-size: 20px;
  }
- h2 {
+ h2, h3{
+   font-family: 'Open Sans', sans-serif;
+   color:  #ff8000;
    text-align: center;
    margin-left: 10px;
    margin-right: 10px;
@@ -19,7 +21,7 @@ h2,h3,h4,p,ul,a,ul li{
    margin-right: 35px;
  }
 header {
-  background-color: darkgray;
+  background-color: black;
   margin-top: 0px;
 
 }
@@ -27,7 +29,7 @@ img {
   width: 100%;
 }
 header h1 {
-  color: white;
+  color: #ff8000;
   text-align: center;
   margin-top: 0;
   padding-top: 20px;
@@ -49,7 +51,7 @@ header nav ul{
   text-decoration: none;
 }
 header nav ul a{
-  color: white;
+  color: #ff8000;
   text-decoration: none;
   margin: 0 20px 0 0;
   font-size: 25px;
@@ -72,6 +74,11 @@ header nav ul li:last-child a {
 }
 .item-triple {
   flex: 3;
+  background-color: black;
+}
+.dark-backgound {
+  background-color: #171717;
+  padding: 20px 0 20px 0;
 }
 a:hover {
   color: lightgray;
