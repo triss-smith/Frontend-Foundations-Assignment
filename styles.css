@@ -1,7 +1,7 @@
 body {
   background-color: #ff8000;
 }
-p,ul,a,ul li{
+p,ul,a,ul li, form label{
   font-family: 'Open Sans', sans-serif;
   color: white;
 }
@@ -26,7 +26,10 @@ p,ul,a,ul li{
 header {
   background-color: black;
   margin-top: 0px;
-
+}
+footer a{
+  color: white;
+  text-align: center;
 }
 img {
   width: 100%;
@@ -94,7 +97,36 @@ header nav ul li:last-child a {
 .center-text {
   text-align:center;
 }
+form label, form button {
+  color: #ff8000;
+  padding: 20px;
+}
+form input, form textarea {
+  width:100%;
+  margin-bottom: 10px;
+}
+form textArea {
+  height: 100px;
+}
+form {
+  margin: 30px 20px 20px 20px;
+  text-align: center;
+  padding: 20px 20px 0 20px;
+}
+form button {
+  background-color: black;
+  font-size: 25px;
+  border-radius: 10px;
+  border-color: #ff8000;
+  margin: 10px 0 20px 0;
+}
 
+#message-to-me {
+  border-color: #ff8000;
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: solid;
+}
 
 /*#about p  {
   padding: 20px 0 20px 0;
@@ -119,5 +151,17 @@ header nav ul li:last-child a {
   }
   a:hover {
     color: lightgray;
-  }
+      }
+      form input, form textarea {
+        width: 250px;
+
+      }
+      form textarea {
+        margin-right: 65px;
+        width: 250px;
+        vertical-align: top;
+      }
+    #back-to-top {
+      display: none;
+    }
 }

@@ -12,7 +12,7 @@
 <link href="styles.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-    <header class="">
+    <header id="home" class="">
       <h1>Triss</h1>
       <nav>
         <ul id="navigation">
@@ -156,6 +156,54 @@
           <a href="https://github.com/triss-smith"><h3>GitHub</h3></a>
         </div>
       </div>
+      <div class="group">
+      <div id="message-to-me" class="item-dark-background">
+      <h2>Send me a message!</h2>
+      </div>
+      </div>
+      <div class="group">
+        <div class="item-double">
+
+        <form action="https://formspree.io/smith.triston@gmail.com" method="POST">
+          <div class="">
+
+
+          <label for="name">Name:</label>
+          <input id="name" type="text" name="name"
+          required
+          placeholder="First and Last"
+          >
+          </div>
+          <div class="">
+
+
+          <label for="email">Email:</label>
+          <input id="email" type="text" name="email"
+          required
+          placeholder="RandyCoreyTrevorson@gmail.com"
+          >
+          </div>
+          <div id="text-message" class="">
+          <label for="message">Your Message:</label>
+          <textarea name="message" id="message"
+          placeholder="Type your message here..."
+          ></textarea>
+          </div>
+          <div class="">
+
+
+          <button type="submit">Submit</button>
+          </div>
+        </form>
+        </div>
+      </div>
     </section>
+    <footer>
+      <div id="back-to-top" class="group">
+        <div class="item">
+          <a href="#home"><p>Back to Top</p></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
