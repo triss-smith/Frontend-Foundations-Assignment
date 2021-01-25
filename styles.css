@@ -5,6 +5,9 @@ p,ul,a,ul li, form label{
   font-family: 'Open Sans', sans-serif;
   color: white;
 }
+a{
+  text-decoration: none;
+}
  p {
    text-align: center;
    margin: 20px;
